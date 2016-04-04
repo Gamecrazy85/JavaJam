@@ -2,6 +2,7 @@
 /* CSS Document */
 body {
 	background-color: #FFFFCC;
+	background-image: url(img/background.gif);
 	color: #330000;
 	font-family: Verdana, Arial, sans-serif;
 }
@@ -21,9 +22,30 @@ footer {
 	font-size: 0.60em;
 	text-align: center;
 	font-style: italic;	
+	padding: 10px;
 }
 #wrapper {
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: #FFFFCC;
+	min-width: 700px;
+	max-width: 1024;
+	box-shadow: px 5px 5px #828282;
+}
+h2 {
+	background-color: #CCAA66;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-bottom: 5px;	
+}
+main {
+	padding: 25px;	
+}
+.details {
+	padding-left: 20%;
+	padding-right: 20%;	
+}
+img {
+	border: none;	
 }
